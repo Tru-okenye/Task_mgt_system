@@ -1,0 +1,131 @@
+
+
+
+.lists {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    /* padding: 4rem 1rem; */
+    margin-top: 2rem;
+}
+.lists h1{
+    margin-top: 2.2rem;
+ 
+}
+.title {
+  
+    text-align: center;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    
+    background: rgb(190, 188, 188);
+    padding: 4rem 1.2rem;
+}
+
+table th {
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+table td{
+/* background: red; */
+padding: 1.0rem;
+font-size: 1.2rem;
+}
+
+
+
+table button{
+    background-color: rgb(116, 110, 110);
+    border: none;
+    padding: .5rem;
+    width: 4.5rem;
+}
+.link {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+
+    
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.btn {
+    text-align: center;
+    width: 6rem;
+    background-color: rgb(116, 110, 110);
+align-self: center;
+    border: none;
+    padding: .5rem;
+    margin-top: 2rem;
+
+}
+.add{
+    text-decoration: none;
+    font-size: 1.0rem;
+    color: black;
+    
+
+}
+.btn:hover{
+    width: 8rem;
+
+   
+}
+.add:hover {
+    color: white;
+}
+table button:hover{
+    width: 5rem;
+    
+    
+}
+.link:hover {
+    color: white;
+}
+
+/* add */
+.taskform{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   margin-top: 2rem;
+    align-items: center;
+}
+.task{
+    display: flex;
+    flex-direction: column;
+    background: gray;
+   width: 12rem;
+    padding: 2rem 8rem;
+    
+}
+.task form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.task form label{
+    margin-top: 1.5rem;
+    font-weight:200;
+}
+.task button{
+    margin-top: 3rem;
+    align-self: center;
+    border: none;
+}
+.task button:hover{
+    background-color: gray;
+}
