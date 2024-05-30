@@ -80,6 +80,7 @@ const List = () => {
                                         <button>
                                             <Link to={`/tasks/${task.id}/edit`} className='link'>EDIT</Link>
                                         </button>
+                                        
                                         <button onClick={() => handleDelete(task.id)} className='link'>DELETE</button>
                                     </td>
                                 </tr>

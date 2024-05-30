@@ -49,7 +49,7 @@ table button{
     text-decoration: none;
     font-size: 1rem;
     color: black;
-
+margin-left: .4rem;
     
 }
 
@@ -65,7 +65,7 @@ table button{
     text-align: center;
     width: 6rem;
     background-color: rgb(116, 110, 110);
-align-self: center;
+    align-self: center;
     border: none;
     padding: .5rem;
     margin-top: 2rem;
